@@ -8,6 +8,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
+from bs4 import BeautifulSoup
+from bs4 import SoupStrainer
 
 import sys
 reload(sys)
@@ -33,10 +35,14 @@ class Spider(object):
         self.homeIcon = ""
         self.pageNum = 0
         self.postNum = 0
+        self.responseNum = 0
+        self.dataPath = ""
         # self.chromeOption = webdriver.ChromeOptions()
         # self.chromeOption.add_argument("--proxy-server=183.131.151.208:80")
-        self.driver = webdriver.Chrome("/usr/bin/chromedriver")
+        # self.driver = webdriver.Chrome("/usr/bin/chromedriver")
         # self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome(
+            executable_path="D:\chromedriver\chromedriver.exe")
 
     def parseConf(self):
         self.cf.read("conf.cfg")
@@ -53,6 +59,9 @@ class Spider(object):
         self.homeIcon = self.cf.get("moocLogin", "homeIcon")
         self.pageNum = self.cf.getint("page", "pageNum")
         self.postNum = self.cf.getint("page", "postNum")
+        self.responseNum = self.cf.getint("page", "responseNum")
+        self.dataPath = self.cf.get("data", "dataPath")
+        self.dataPath = self.dataPath + self.className + "/"
 
     '''
     login on the home page
@@ -78,13 +87,13 @@ class Spider(object):
         except Exception, e:
             print e
             raise e
-        password.send_keys("xxxxxxxx")
+        password.send_keys("10025858iI")
         self.driver.implicitly_wait(30)
         login = self.driver.find_element_by_id(self.loginId).click()
         # return self.driver.get_cookie
 
     def savePage(self, x, page):
-        path = "data/page" + str(x)
+        path = self.dataPath + "page" + str(x)
         if os.path.exists(path):
             for f in os.listdir(path):
                 os.remove(path + "/" + f)
@@ -95,12 +104,32 @@ class Spider(object):
         f.close()
 
     def savePost(self, x, p, post):
-        path = "data/page" + str(x)
+        path = self.dataPath + "page" + str(x)
         f = open(path + "/post" + str(p) + ".htm", 'w')
         f.write(post)
         f.close()
 
+    def savePost2(self, x, p, resPage, post):
+        path = self.dataPath + "page" + str(x) + "/post" + str(p)
+        os.makedirs(path)
+        f = open(path + "/resPage" + str(resPage) + ".htm", 'w')
+        f.write(post)
+        f.close()
+
+    def calculateResPages(self, post):
+        onlyBody = SoupStrainer(class_="g-mn1")
+        soup = BeautifulSoup(post, "html.parser", parse_only=onlyBody)
+        responseNum = int(
+            unicode(soup.find("h4", class_="j-reply-info f-fl").string)[1:-2])
+        pages = responseNum / self.responseNum
+        remainder = responseNum % self.responseNum
+        if remainder == 0:
+            return pages
+        else:
+            return pages + 1
+
     def getResponsePages(self, pageSource):
+        pass
     '''
     get the pages and posts
     '''
@@ -121,7 +150,6 @@ class Spider(object):
         for x in xrange(1, self.pageNum + 1):
             self.driver.find_element_by_link_text(str(x)).click()
             time.sleep(2)
-            # self.driver.implicitly_wait(30)
             page = self.driver.page_source
             self.savePage(x, page)
             postNum = 0
@@ -136,10 +164,21 @@ class Spider(object):
                     self.postCssSelector)
                 href[p].click()
                 time.sleep(2)
-                # self.driver.implicitly_wait(30)
                 post = self.driver.page_source
-                self.savePost(x, p + 1, post)
-                self.driver.back()
+                responsePages = self.calculateResPages(post)
+                if responsePages == 1:
+                    self.savePost(x, p + 1, post)
+                    self.driver.back()
+                else:
+                    for resPage in xrange(1, responsePages):
+                        if resPage == 1:
+                            self.savePost2(x, p + 1, resPage, post)
+                        else:
+                            self.driver.find_element_by_link_text(
+                                str(resPage)).click()
+                            self.savePost2(x, p + 1, resPage,
+                                           self.driver.page_source)
+                            self.driver.back()
 
     '''
     close the driver

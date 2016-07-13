@@ -13,10 +13,14 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 
 onlyMainTag = SoupStrainer(class_="g-mn1")
-soup = BeautifulSoup(open("example"), "lxml", parse_only=onlyMainTag)
-postContent = soup.find("div", class_="content")
-print postContent
-s = ""
-for x in postContent.stripped_strings:
-    s += x
-print s
+soup = BeautifulSoup(open("example"), "html.parser", parse_only=onlyMainTag)
+# postContent = soup.find("div", class_="content")
+
+# s = ""
+# for x in postContent.stripped_strings:
+#     s += x
+# print s
+
+
+print int(
+    unicode(soup.find("h4", class_="j-reply-info f-fl").string)[1:-2])
