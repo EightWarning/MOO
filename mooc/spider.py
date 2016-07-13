@@ -78,7 +78,7 @@ class Spider(object):
         except Exception, e:
             print e
             raise e
-        password.send_keys("10025858iI")
+        password.send_keys("xxxxxxxx")
         self.driver.implicitly_wait(30)
         login = self.driver.find_element_by_id(self.loginId).click()
         # return self.driver.get_cookie
