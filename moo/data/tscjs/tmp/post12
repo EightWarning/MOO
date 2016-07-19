@@ -1,0 +1,133 @@
+{
+  "content": {
+    "anonymous_to_peers": false,
+    "unread_comments_count": 0,
+    "essence": false,
+    "updated_at": "2016-06-10T03:00:01Z",
+    "resp_skip": 0,
+    "course_id": "course-v1:TsinghuaX+00690863X+__",
+    "id": "575a2d31f605ab7790005cad",
+    "pinned": false,
+    "votes": {
+      "count": 0,
+      "down_count": 0,
+      "point": 0,
+      "up_count": 0
+    },
+    "user_id": "489083",
+    "title": "第二十七讲第4题",
+    "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+    "abuse_flaggers": [],
+    "endorsed_responses": [],
+    "closed": false,
+    "at_position_list": [],
+    "type": "thread",
+    "body": "4.《南乡子》一词作于宋宁宗 __ __ __ 年（1204）三月，辛弃疾被改派为 __ __ 知府之时而作。\n第一个填空答案填**嘉泰**怎么不正确？",
+    "read": true,
+    "use": false,
+    "non_endorsed_resp_total": 1,
+    "anonymous": false,
+    "created_at": "2016-06-10T03:00:01Z",
+    "thread_type": "question",
+    "username": "boailam",
+    "non_endorsed_responses": [
+      {
+        "body": "嘉泰四",
+        "anonymous_to_peers": false,
+        "votes": {
+          "count": 0,
+          "down_count": 0,
+          "point": 0,
+          "up_count": 0
+        },
+        "user_id": "320185",
+        "anonymous": false,
+        "essence": false,
+        "created_at": "2016-06-10T04:54:16Z",
+        "use": false,
+        "updated_at": "2016-06-10T04:54:16Z",
+        "username": "IamJohnny",
+        "id": "575a47f8f605ab6ce8005d73",
+        "abuse_flaggers": [],
+        "thread_id": "575a2d31f605ab7790005cad",
+        "depth": 0,
+        "closed": false,
+        "course_id": "course-v1:TsinghuaX+00690863X+__",
+        "endorsed": false,
+        "at_position_list": [],
+        "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+        "type": "comment",
+        "children": [
+          {
+            "body": "明白了，谢谢",
+            "anonymous_to_peers": false,
+            "votes": {
+              "count": 0,
+              "down_count": 0,
+              "point": 0,
+              "up_count": 0
+            },
+            "user_id": "489083",
+            "anonymous": false,
+            "essence": false,
+            "created_at": "2016-06-10T07:15:47Z",
+            "use": false,
+            "updated_at": "2016-06-10T07:15:47Z",
+            "username": "boailam",
+            "id": "575a6923459f08ac61005ea6",
+            "abuse_flaggers": [],
+            "thread_id": "575a2d31f605ab7790005cad",
+            "depth": 1,
+            "closed": false,
+            "course_id": "course-v1:TsinghuaX+00690863X+__",
+            "endorsed": false,
+            "at_position_list": [],
+            "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+            "type": "comment",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "comments_count": 2,
+    "endorsed": false
+  },
+  "annotated_content_info": {
+    "575a47f8f605ab6ce8005d73": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "575a6923459f08ac61005ea6": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "575a2d31f605ab7790005cad": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    }
+  }
+}

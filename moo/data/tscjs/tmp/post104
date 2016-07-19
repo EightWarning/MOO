@@ -1,0 +1,173 @@
+{
+  "content": {
+    "anonymous_to_peers": false,
+    "unread_comments_count": 0,
+    "essence": false,
+    "updated_at": "2016-03-23T02:17:39Z",
+    "resp_skip": 0,
+    "course_id": "course-v1:TsinghuaX+00690863X+__",
+    "id": "56f1fcc3f605aba08a001fce",
+    "pinned": false,
+    "votes": {
+      "count": 0,
+      "down_count": 0,
+      "point": 0,
+      "up_count": 0
+    },
+    "user_id": "432116",
+    "title": "李煜《虞美人》（春花秋月何时了）中“往事知多少”一语，“往事“既指着 __ __ 和 __ __ 。",
+    "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+    "abuse_flaggers": [],
+    "endorsed_responses": [],
+    "closed": false,
+    "at_position_list": [],
+    "type": "thread",
+    "body": "按照王老师课件里讲的，往事既指自己当国君时的往事，又包含丰富的历史内容和感情内容。可是怎么答都不对啊，请教应该填什么？",
+    "read": true,
+    "use": false,
+    "non_endorsed_resp_total": 2,
+    "anonymous": false,
+    "created_at": "2016-03-23T02:17:39Z",
+    "thread_type": "question",
+    "username": "Michelleyang",
+    "non_endorsed_responses": [
+      {
+        "body": "往事指历史和感情。另外，这题因为可能有争议，所以在提交过一次答案以后，可以点击显示答案查看正确答案的~",
+        "anonymous_to_peers": false,
+        "votes": {
+          "count": 0,
+          "down_count": 0,
+          "point": 0,
+          "up_count": 0
+        },
+        "user_id": "2479907",
+        "anonymous": false,
+        "essence": false,
+        "created_at": "2016-03-23T02:21:54Z",
+        "use": false,
+        "updated_at": "2016-03-23T02:21:54Z",
+        "username": "郑孟蕾",
+        "id": "56f1fdc2f605ab6ce8002026",
+        "abuse_flaggers": [],
+        "thread_id": "56f1fcc3f605aba08a001fce",
+        "depth": 0,
+        "closed": false,
+        "course_id": "course-v1:TsinghuaX+00690863X+__",
+        "endorsed": false,
+        "at_position_list": [],
+        "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+        "type": "comment",
+        "children": [
+          {
+            "body": "多谢",
+            "anonymous_to_peers": false,
+            "votes": {
+              "count": 0,
+              "down_count": 0,
+              "point": 0,
+              "up_count": 0
+            },
+            "user_id": "432116",
+            "anonymous": false,
+            "essence": false,
+            "created_at": "2016-03-23T02:56:58Z",
+            "use": false,
+            "updated_at": "2016-03-23T02:56:58Z",
+            "username": "Michelleyang",
+            "id": "56f205fa459f083be4001f67",
+            "abuse_flaggers": [],
+            "thread_id": "56f1fcc3f605aba08a001fce",
+            "depth": 1,
+            "closed": false,
+            "course_id": "course-v1:TsinghuaX+00690863X+__",
+            "endorsed": false,
+            "at_position_list": [],
+            "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+            "type": "comment",
+            "children": []
+          }
+        ]
+      },
+      {
+        "body": "多看课件，根据横线判断字数。",
+        "anonymous_to_peers": false,
+        "votes": {
+          "count": 0,
+          "down_count": 0,
+          "point": 0,
+          "up_count": 0
+        },
+        "user_id": "499430",
+        "anonymous": false,
+        "essence": false,
+        "created_at": "2016-03-23T04:33:44Z",
+        "use": false,
+        "updated_at": "2016-03-23T04:33:44Z",
+        "username": "zenist",
+        "id": "56f21ca8459f083be4001f75",
+        "abuse_flaggers": [],
+        "thread_id": "56f1fcc3f605aba08a001fce",
+        "depth": 0,
+        "closed": false,
+        "course_id": "course-v1:TsinghuaX+00690863X+__",
+        "endorsed": false,
+        "at_position_list": [],
+        "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+        "type": "comment",
+        "children": []
+      }
+    ],
+    "comments_count": 3,
+    "endorsed": false
+  },
+  "annotated_content_info": {
+    "56f1fdc2f605ab6ce8002026": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56f21ca8459f083be4001f75": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56f1fcc3f605aba08a001fce": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56f205fa459f083be4001f67": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    }
+  }
+}

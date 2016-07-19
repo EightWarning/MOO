@@ -1,0 +1,414 @@
+{
+  "content": {
+    "anonymous_to_peers": false,
+    "unread_comments_count": 0,
+    "essence": false,
+    "updated_at": "2016-03-16T01:17:48Z",
+    "resp_skip": 0,
+    "course_id": "course-v1:TsinghuaX+00690863X+__",
+    "id": "56e8b43c459f083be400192d",
+    "pinned": false,
+    "votes": {
+      "count": 1,
+      "down_count": 0,
+      "point": 1,
+      "up_count": 1
+    },
+    "user_id": "276088",
+    "title": " 韦庄《菩萨蛮》（人人尽说江南好）词中的“江南”，有两种不同的说法，一说是实指__ __ ，一说是暗指 __ __。",
+    "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+    "abuse_flaggers": [],
+    "closed": false,
+    "resp_total": 4,
+    "at_position_list": [],
+    "type": "thread",
+    "body": "我第一个空填江南，就对了，第二个填蜀中，错误，~~~~(>_<)~~~~正确答案是啥？？求助",
+    "read": true,
+    "use": false,
+    "anonymous": false,
+    "thread_type": "discussion",
+    "created_at": "2016-03-16T01:17:48Z",
+    "children": [
+      {
+        "body": "第二个答案是“蜀地”。\n学堂在线的填空题答案判别唯一，有时候词义相近但也会判错，这时候可以拿相近的词多试几次，也可以来讨论区大家一起讨论~",
+        "anonymous_to_peers": false,
+        "votes": {
+          "count": 0,
+          "down_count": 0,
+          "point": 0,
+          "up_count": 0
+        },
+        "user_id": "2479907",
+        "anonymous": false,
+        "essence": false,
+        "created_at": "2016-03-16T01:56:26Z",
+        "use": false,
+        "updated_at": "2016-03-16T01:56:26Z",
+        "username": "郑孟蕾",
+        "id": "56e8bd4af605aba08a0019a8",
+        "abuse_flaggers": [],
+        "thread_id": "56e8b43c459f083be400192d",
+        "depth": 0,
+        "closed": false,
+        "course_id": "course-v1:TsinghuaX+00690863X+__",
+        "endorsed": false,
+        "at_position_list": [],
+        "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+        "type": "comment",
+        "children": [
+          {
+            "body": "谢谢(⊙o⊙)",
+            "anonymous_to_peers": false,
+            "votes": {
+              "count": 0,
+              "down_count": 0,
+              "point": 0,
+              "up_count": 0
+            },
+            "user_id": "276088",
+            "anonymous": false,
+            "essence": false,
+            "created_at": "2016-03-20T12:10:53Z",
+            "use": false,
+            "updated_at": "2016-03-20T12:10:53Z",
+            "username": "yaua",
+            "id": "56ee934d459f083be4001d7e",
+            "abuse_flaggers": [],
+            "thread_id": "56e8b43c459f083be400192d",
+            "depth": 1,
+            "closed": false,
+            "course_id": "course-v1:TsinghuaX+00690863X+__",
+            "endorsed": false,
+            "at_position_list": [],
+            "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+            "type": "comment",
+            "children": []
+          }
+        ]
+      },
+      {
+        "body": "第一个，我开始填【越中】，错，于是百思不得其解，最后我填了“江南”。汗……",
+        "anonymous_to_peers": false,
+        "votes": {
+          "count": 0,
+          "down_count": 0,
+          "point": 0,
+          "up_count": 0
+        },
+        "user_id": "499430",
+        "anonymous": false,
+        "essence": false,
+        "created_at": "2016-03-17T09:40:31Z",
+        "use": false,
+        "updated_at": "2016-03-17T09:40:31Z",
+        "username": "zenist",
+        "id": "56ea7b8ff605ab6ce8001b5e",
+        "abuse_flaggers": [],
+        "thread_id": "56e8b43c459f083be400192d",
+        "depth": 0,
+        "closed": false,
+        "course_id": "course-v1:TsinghuaX+00690863X+__",
+        "endorsed": false,
+        "at_position_list": [],
+        "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+        "type": "comment",
+        "children": [
+          {
+            "body": "第一个空填了好多版本，长江之南、南方、越中、江苏的南部，狂汗，原来就填江南。。。",
+            "anonymous_to_peers": false,
+            "votes": {
+              "count": 0,
+              "down_count": 0,
+              "point": 0,
+              "up_count": 0
+            },
+            "user_id": "432116",
+            "anonymous": false,
+            "essence": false,
+            "created_at": "2016-03-18T08:13:51Z",
+            "use": false,
+            "updated_at": "2016-03-18T08:13:51Z",
+            "username": "Michelleyang",
+            "id": "56ebb8bf459f0836c8001d08",
+            "abuse_flaggers": [],
+            "thread_id": "56e8b43c459f083be400192d",
+            "depth": 1,
+            "closed": false,
+            "course_id": "course-v1:TsinghuaX+00690863X+__",
+            "endorsed": false,
+            "at_position_list": [],
+            "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+            "type": "comment",
+            "children": []
+          },
+          {
+            "body": "因为这题可能的回答比较多，我故意画了两条横线，表示是两个字(｡･∀･)ﾉﾞ",
+            "anonymous_to_peers": false,
+            "votes": {
+              "count": 0,
+              "down_count": 0,
+              "point": 0,
+              "up_count": 0
+            },
+            "user_id": "2479907",
+            "anonymous": false,
+            "essence": false,
+            "created_at": "2016-03-18T11:36:35Z",
+            "use": false,
+            "updated_at": "2016-03-18T11:36:35Z",
+            "username": "郑孟蕾",
+            "id": "56ebe843459f088616001b69",
+            "abuse_flaggers": [],
+            "thread_id": "56e8b43c459f083be400192d",
+            "depth": 1,
+            "closed": false,
+            "course_id": "course-v1:TsinghuaX+00690863X+__",
+            "endorsed": false,
+            "at_position_list": [],
+            "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+            "type": "comment",
+            "children": []
+          },
+          {
+            "body": "好吧，原来是蜀地………………我还试了试四川",
+            "anonymous_to_peers": false,
+            "votes": {
+              "count": 0,
+              "down_count": 0,
+              "point": 0,
+              "up_count": 0
+            },
+            "user_id": "308645",
+            "anonymous": false,
+            "essence": false,
+            "created_at": "2016-04-02T09:27:31Z",
+            "use": false,
+            "updated_at": "2016-04-02T09:27:31Z",
+            "username": "B-M",
+            "id": "56ff9083459f0886160026d4",
+            "abuse_flaggers": [],
+            "thread_id": "56e8b43c459f083be400192d",
+            "depth": 1,
+            "closed": false,
+            "course_id": "course-v1:TsinghuaX+00690863X+__",
+            "endorsed": false,
+            "at_position_list": [],
+            "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+            "type": "comment",
+            "children": []
+          }
+        ]
+      },
+      {
+        "body": "汗，这个地方我也是填了好多都错，特意把视频看了2遍都搞不懂真正的字应该是哪两个，这个机器判断唯一有点难填！",
+        "anonymous_to_peers": false,
+        "votes": {
+          "count": 0,
+          "down_count": 0,
+          "point": 0,
+          "up_count": 0
+        },
+        "user_id": "2650802",
+        "anonymous": false,
+        "essence": false,
+        "created_at": "2016-03-24T05:05:41Z",
+        "use": false,
+        "updated_at": "2016-03-24T05:05:41Z",
+        "username": "自由的tina99",
+        "id": "56f375a5f605aba08a0020b8",
+        "abuse_flaggers": [],
+        "thread_id": "56e8b43c459f083be400192d",
+        "depth": 0,
+        "closed": false,
+        "course_id": "course-v1:TsinghuaX+00690863X+__",
+        "endorsed": false,
+        "at_position_list": [],
+        "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+        "type": "comment",
+        "children": [
+          {
+            "body": "但这个根据老师的讲解，也应该可以理解为，一明指地方、风景，暗指思乡，所以意思有好多种",
+            "anonymous_to_peers": false,
+            "votes": {
+              "count": 0,
+              "down_count": 0,
+              "point": 0,
+              "up_count": 0
+            },
+            "user_id": "2650802",
+            "anonymous": false,
+            "essence": false,
+            "created_at": "2016-03-24T05:07:06Z",
+            "use": false,
+            "updated_at": "2016-03-24T05:07:06Z",
+            "username": "自由的tina99",
+            "id": "56f375faf605ab6ce8002104",
+            "abuse_flaggers": [],
+            "thread_id": "56e8b43c459f083be400192d",
+            "depth": 1,
+            "closed": false,
+            "course_id": "course-v1:TsinghuaX+00690863X+__",
+            "endorsed": false,
+            "at_position_list": [],
+            "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+            "type": "comment",
+            "children": []
+          }
+        ]
+      },
+      {
+        "body": "汉字本是多意啊，幸亏来此看了一下，不然晕死在“标准”答案上了。",
+        "anonymous_to_peers": false,
+        "votes": {
+          "count": 0,
+          "down_count": 0,
+          "point": 0,
+          "up_count": 0
+        },
+        "user_id": "2712253",
+        "anonymous": false,
+        "essence": false,
+        "created_at": "2016-03-27T23:22:33Z",
+        "use": false,
+        "updated_at": "2016-03-27T23:22:33Z",
+        "username": "漫步采星辰",
+        "id": "56f86b39f605abd9f50024c3",
+        "abuse_flaggers": [],
+        "thread_id": "56e8b43c459f083be400192d",
+        "depth": 0,
+        "closed": false,
+        "course_id": "course-v1:TsinghuaX+00690863X+__",
+        "endorsed": false,
+        "at_position_list": [],
+        "commentable_id": "i4x-TsinghuaX-00690863X-course-_",
+        "type": "comment",
+        "children": []
+      }
+    ],
+    "username": "yaua",
+    "comments_count": 9,
+    "endorsed": false
+  },
+  "annotated_content_info": {
+    "56e8b43c459f083be400192d": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56f86b39f605abd9f50024c3": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56f375faf605ab6ce8002104": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56ebb8bf459f0836c8001d08": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56f375a5f605aba08a0020b8": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56e8bd4af605aba08a0019a8": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56ee934d459f083be4001d7e": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56ebe843459f088616001b69": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56ff9083459f0886160026d4": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    },
+    "56ea7b8ff605ab6ce8001b5e": {
+      "voted": "",
+      "subscribed": false,
+      "ability": {
+        "can_reply": true,
+        "can_openclose": false,
+        "editable": false,
+        "can_change_essence": false,
+        "can_delete": false,
+        "can_vote": true
+      }
+    }
+  }
+}
