@@ -5,6 +5,8 @@ import re
 import sys
 import json
 import jieba
+import pymongo
+import subprocess
 import threading
 import ConfigParser
 from bs4 import BeautifulSoup
@@ -23,15 +25,37 @@ class Process(object):
         self.coursePath = ""
         self.rawDataPath = ""
         self.jsonDataPath = ""
+        self.dbPath = ""
+        self.logPath = ""
+        self.host = ""
+        self.port = 0
 
     def parseConf(self):
         self.cf.read("config.conf")
         self.coursePath = self.cf.get("courseInfo", "coursePath")
         self.rawDataPath = self.cf.get("courseInfo", "rawDataPath")
         self.jsonDataPath = self.cf.get("courseInfo", "jsonDataPath")
+        self.dbPath = self.cf.get("courseInfo", "dbPath")
+        self.logPath = self.cf.get("courseInfo", "logPath")
+        self.host = self.cf.get("db", "host")
+        self.port = self.cf.getint("db", "port")
+
+    def initDb(self):
+        if not os.path.exists(self.dbPath):
+            os.makedirs(self.dbPath)
+        child = subprocess.Popen(["lsof", "-i:27017"], stdout=subprocess.PIPE)
+        child.wait()
+        out = child.communicate()
+        if out[0] == "":
+        	dataPath = "--datapath=" + self.dbPath
+        	logPath = "--logpath=" + self.logPath
+            startMongodb=subprocess.Popen(["mongod",dataPath,logPath],stdout=subprocess.PIPE)
+            startMongodb.wait()
+            out = startMongodb.communicate()
+
 
     def getComments(self, dt):
-        comments = {}
+        comments = []
         i = 0
         for li in dt:
             i += 1
@@ -43,8 +67,10 @@ class Process(object):
             if li["children"]:
                 tmp["comments"] = self.getComments(li["children"])
             else:
-                tmp["comments"] = {}
-            comments[key] = tmp
+                tmp["comments"] = []
+            item = {}
+            item[key] = tmp
+            comments.append(item)
         return comments
 
     def parseJson(self, name):
@@ -67,7 +93,7 @@ class Process(object):
             else:
                 postInfo["comments"] = self.getComments(content["children"])
         else:
-            postInfo["comments"] = {}
+            postInfo["comments"] = []
         j = json.dumps(postInfo)
         jsonName = os.path.join(self.jsonDataPath, os.path.split(name)[1])
         self.saveJson(j, jsonName)

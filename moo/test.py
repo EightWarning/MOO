@@ -1,9 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+import os
 import re
 import sys
 import time
+import subprocess
 import ConfigParser
 import requests
 from selenium import webdriver
@@ -16,10 +17,8 @@ from bs4 import SoupStrainer
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
-
-s = "ssssss"
-f = open("data/s/post.htm", 'w')
-f.write(s)
-f.close()
-# with open("data/唐宋词鉴赏/post.htm", 'w') as f:
-#     f.write(s)
+s1 = "ls"
+s2 = "-l"
+child = subprocess.Popen([s1, s2], stdout=subprocess.PIPE)
+out = child.communicate()
+print out
